@@ -22,6 +22,8 @@ Package.on_use(function(api, where) {
     ], ["client", "server"]);
 
     api.add_files([
+        "lib/at_cancel_btn.html",
+        "lib/at_cancel_btn.js",
         "lib/at_error.html",
         "lib/at_error.js",
         "lib/at_form.html",
